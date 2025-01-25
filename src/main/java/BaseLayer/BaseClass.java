@@ -13,6 +13,10 @@ public class BaseClass {
 	private static ThreadLocal<WebDriver> td = new ThreadLocal<WebDriver>();
 
 	public static WebDriver getDriver() {
+		public static WebDriver getDriver() {
+			public static WebDriver getDriver() {
+		}
+		
 		return td.get();
 	}
 
